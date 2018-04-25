@@ -1,7 +1,3 @@
-def myFunctions (x):
-  if x >= 9:
-    print('大于9')
-  else: 
-    print('小于9')
-
-print(myFunctions(3))
+d = {'x': 'A', 'y': 'B', 'z': 'C' }
+for k, v in d.items():
+    print(k, '=', v)
