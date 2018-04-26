@@ -1,1 +1,3 @@
-print([x * x for x in range(1, 11)])
+d = {'x': 'A', 'y': 'B', 'z': 'C' }
+for k, v in d.items():
+    print(k, '=', v)
