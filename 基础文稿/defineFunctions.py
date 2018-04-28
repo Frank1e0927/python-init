@@ -1,3 +1,2 @@
-d = {'x': 'A', 'y': 'B', 'z': 'C' }
-for k, v in d.items():
-    print(k, '=', v)
+lists = [value * 2 for value in range(1,11)]
+print(list)
